@@ -7,7 +7,7 @@ public class HelloWorld {
 
   }
 
-  private static String salutation(String[] ags) {
+  private static String salutation(String[] args) {
     return "Hello, " + ((args.length > 0) ?  args[0] : "World");
 
   }
